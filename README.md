@@ -3,7 +3,7 @@
 **Name:** EB Fathima Suhana
 **MUID:** fathimasuhana@mulearn
 
-🌐 **Deployment Link:** _(paste your live Streamlit Community Cloud URL here after deploying)_
+🌐 **Deployment Link:** [streamlit link](https://eujvqzvgdl29r9at8uuz3c.streamlit.app/~/+/#ktu-ai-study-assistant)
 
 ## Project Overview
 
@@ -30,8 +30,9 @@ Used the **Groq API** (free tier) with the `llama-3.3-70b-versatile` model. Pick
 - Having a mode-specific system prompt vs a single generic prompt made a big difference in output quality - when I first tested with one generic "You are a helpful assistant" prompt, the outputs were way less structured and sometimes ignored the format I wanted.
 - The "explain it like I'm..." difficulty slider actually changes the depth of explanation noticeably, which was cool to see working properly.
 - Groq's responses came back fast enough that the app doesn't feel laggy even though its calling an external API every time.
+- Tested with a few topics from TOC and DS and the response is pretty fast.
+- The responses are optimised based on the mode we choose - beginner to exam-oriented only.
 
-_(Add your own observations here after testing with your real API key + actual KTU topics - like which subjects it explained well vs where it struggled, or how good the quiz questions were.)_
 
 ## Challenges Faced
 
